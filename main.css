@@ -18,7 +18,7 @@ ul {
 
 hr {
   width: 90%;
-  margin: 40px 0 20px 0;
+  margin: 30px 0 20px 0;
   border: solid #cfcfcf;
   border-width: 1px 0 0 0;
 }
@@ -127,7 +127,7 @@ header {
   color: #3b3b3b;
 }
 
-.fa-user {
+.login .fa-user {
   text-align: center;
   background-color: #aaaaaa;
   font-size: 15px;
@@ -271,6 +271,7 @@ header {
 .sidebar h2 {
   font-size: 20px;
   font-weight: 400;
+  margin-bottom: 15px;
 }
 
 .sidebar a {
@@ -281,6 +282,50 @@ header {
 
 .sidebar a:hover {
   text-decoration: underline;
+}
+
+.search-class i {
+  width: 20px;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 3px;
+}
+
+.fashion-class li {
+  margin-bottom: 10px;
+}
+
+.fashion-class a:hover {
+  opacity: .75;
+}
+
+.fashion-class img {
+  width: 38px;
+  height: 38px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: #d6d6d6 solid 1px;
+  border-radius: 50%;
+}
+
+.fashion-class .blogger-list {
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fashion-class .blogger-list i {
+  font-weight: 200;
+  margin-right: 3px;
+}
+
+.fashion-class .blogger-list .blogger-detail {
+  margin-left: 5px;
+}
+
+.fashion-class .blogger-list .blogger-detail .blogger {
+  font-weight: 600;
 }
 
 .content {
@@ -324,7 +369,7 @@ header {
 
 .card {
   width: 400px;
-  height: 450px;
+  height: 600px;
   margin: 0 0 18px 18px;
   border: solid 1px #e0e0e0;
   border-radius: 3px;
@@ -337,5 +382,22 @@ header {
 
 .card a:hover {
   opacity: .7;
+}
+
+.see-more {
+  font-weight: 600;
+  color: #7c7c7c;
+  background-color: #ffffff;
+  border: solid #d4d4d4 1px;
+  border-radius: 2px;
+  padding: 5px 10px;
+  margin-left: 70px;
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.see-more:hover {
+  color: #aaaaaa;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
